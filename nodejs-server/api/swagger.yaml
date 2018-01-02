@@ -107,6 +107,14 @@ definitions:
         example: "2016-08-29T09:12:33.001Z"
       manufacturer:
         $ref: "#/definitions/Manufacturer"
+    example:
+      releaseDate: "2016-08-29T09:12:33.001Z"
+      name: "Widget Adapter"
+      id: "d290f1ee-6c54-4b01-90e6-d701748f0851"
+      manufacturer:
+        phone: "408-867-5309"
+        name: "ACME Corporation"
+        homePage: "https://www.acme-corp.com"
   Manufacturer:
     required:
     - "name"
@@ -121,3 +129,7 @@ definitions:
       phone:
         type: "string"
         example: "408-867-5309"
+    example:
+      phone: "408-867-5309"
+      name: "ACME Corporation"
+      homePage: "https://www.acme-corp.com"
